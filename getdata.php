@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT * FROM ".$GET['type'];
+$sql = "SELECT * FROM ".$_GET['type'];
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "phpmyadmin";
+$password = "some_pass";
 $dbname = "lensselect";
 
 $data=array();
